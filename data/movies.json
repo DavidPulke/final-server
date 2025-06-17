@@ -1,0 +1,577 @@
+[
+    {
+        "name": "Iron Man",
+        "description": "A billionaire industrialist and genius inventor becomes Iron Man.",
+        "year": 2008,
+        "rate": 6.5,
+        "duration": 126,
+        "creator": "682f4a5b41f81afa31ec0437",
+        "mainChars": [
+            "Robert Downey Jr",
+            "Terrence Howard",
+            "Jeff Bridges"
+        ],
+        "category": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748990225/Iron_Man_Poster_hkg5yq.webp",
+            "alt": "Iron Man Poster",
+            "publicId": "ironman123"
+        }
+    },
+    {
+        "name": "Black Panther",
+        "description": "T'Challa returns home to take his rightful place as king of Wakanda.",
+        "year": 2018,
+        "duration": 134,
+        "rate": 7.5,
+        "creator": "682f4a5b41f81afa31ec0437",
+        "category": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "mainChars": [
+            "Chadwick Boseman",
+            "Michael B. Jordan",
+            "Lupita Nyong'o"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748991148/Black-Panther-Poster_ixazja.jpg",
+            "alt": "Black Panther Poster",
+            "publicId": "blackpanther123"
+        }
+    },
+    {
+        "name": "Doctor Strange",
+        "description": "After a tragic accident, Dr. Stephen Strange must learn the secrets of a hidden world of mysticism.",
+        "year": 2016,
+        "rate": 6,
+        "duration": 115,
+        "creator": "682f4a5b41f81afa31ec0437",
+        "mainChars": [
+            "Benedict Cumberbatch",
+            "Chiwetel Ejiofor",
+            "Rachel McAdams"
+        ],
+        "category": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748994922/docter-strange_zm4hnu.jpg",
+            "alt": "Doctor Strange Poster",
+            "publicId": "doctorstrange123"
+        }
+    },
+    {
+        "name": "Jurassic Park",
+        "description": "A theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok.",
+        "year": 1993,
+        "duration": 127,
+        "rate": 6.5,
+        "creator": "682f4a5b41f81afa31ec044f",
+        "category": [
+            "Adventure",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "mainChars": [
+            "Sam Neill",
+            "Laura Dern",
+            "Jeff Goldblum"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748995198/Jurassic-Park-Poster_ppenjt.webp",
+            "alt": "Jurassic Park Poster",
+            "publicId": "jurassic123"
+        }
+    },
+    {
+        "name": "Fast & Furious 7",
+        "description": "Deckard Shaw seeks revenge against Dominic Toretto and his family.",
+        "year": 2015,
+        "duration": 137,
+        "rate": 8.5,
+        "creator": "682f4a5b41f81afa31ec044f",
+        "category": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "mainChars": [
+            "Vin Diesel",
+            "Paul Walker",
+            "Dwayne Johnson"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748995307/Fast_Furious_7_Poster_uuiisp.jpg",
+            "alt": "Fast & Furious 7 Poster",
+            "publicId": "furious7"
+        }
+    },
+    {
+        "name": "Despicable Me 4",
+        "description": "A man who delights in all things wicked must deal with three little girls who look up to him.",
+        "year": 2024,
+        "duration": 95,
+        "rate": 7.8,
+        "creator": "682f4a5b41f81afa31ec044f",
+        "category": [
+            "Animation",
+            "Comedy",
+            "Family"
+        ],
+        "mainChars": [
+            "Steve Carell",
+            "Kristen Wiig",
+            "Will Ferrell"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748995495/Despicable-Me-4-Poster_n7defg.jpg",
+            "alt": "Despicable Me Poster",
+            "publicId": "despicableme"
+        }
+    },
+    {
+        "name": "Shrek",
+        "description": "An ogre's peaceful life is disrupted by a group of fairy tale creatures.",
+        "year": 2001,
+        "rate": 6.9,
+        "duration": 90,
+        "creator": "682f4a5b41f81afa31ec0453",
+        "category": [
+            "Animation",
+            "Adventure",
+            "Comedy"
+        ],
+        "mainChars": [
+            "Mike Myers",
+            "Eddie Murphy",
+            "Cameron Diaz"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748995583/Shrek-Poster_bk83ae.jpg",
+            "alt": "Shrek Poster",
+            "publicId": "shrek123"
+        }
+    },
+    {
+        "name": "Kung Fu Panda",
+        "description": "A clumsy panda must become a kung fu master to save the Valley of Peace.",
+        "year": 2008,
+        "rate": 7.9,
+        "duration": 92,
+        "creator": "682f4a5b41f81afa31ec0453",
+        "category": [
+            "Animation",
+            "Action",
+            "Adventure"
+        ],
+        "mainChars": [
+            "Jack Black",
+            "Dustin Hoffman",
+            "Angelina Jolie"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748996482/Kung_Fu_Panda-poster_zb22wh.webp",
+            "alt": "Kung Fu Panda Poster",
+            "publicId": "kungfupanda"
+        }
+    },
+    {
+        "name": "How to Train Your Dragon",
+        "description": "A young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon.",
+        "year": 2010,
+        "duration": 98,
+        "rate": 6.2,
+        "creator": "682f4a5b41f81afa31ec0453",
+        "category": [
+            "Animation",
+            "Action",
+            "Adventure"
+        ],
+        "mainChars": [
+            "Jay Baruchel",
+            "Gerard Butler",
+            "America Ferrera"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748996481/How_to_Train_Your_Dragon_dil7xx.jpg",
+            "alt": "How to Train Your Dragon Poster",
+            "publicId": "httyd"
+        }
+    },
+    {
+        "name": "The Dark Knight",
+        "description": "Batman must accept one of the greatest psychological and physical tests when the Joker emerges.",
+        "year": 2008,
+        "rate": 7.9,
+        "duration": 152,
+        "creator": "682f4a5b41f81afa31ec0447",
+        "category": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "mainChars": [
+            "Christian Bale",
+            "Heath Ledger",
+            "Aaron Eckhart"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748996488/The_Dark_Knight_uwwcz8.jpg",
+            "alt": "The Dark Knight Poster",
+            "publicId": "darkknight"
+        }
+    },
+    {
+        "name": "Inception",
+        "description": "A thief who steals corporate secrets through dream-sharing technology is given an inverse task.",
+        "year": 2010,
+        "rate": 5.5,
+        "duration": 148,
+        "creator": "682f4a5b41f81afa31ec0447",
+        "category": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "mainChars": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Elliot Page"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748996486/Inception_olul6i.jpg",
+            "alt": "Inception Poster",
+            "publicId": "inception123"
+        }
+    },
+    {
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "description": "An orphaned boy enrolls in a school of wizardry.",
+        "year": 2001,
+        "rate": 7.8,
+        "duration": 152,
+        "creator": "682f4a5b41f81afa31ec0447",
+        "category": [
+            "Adventure",
+            "Family",
+            "Fantasy"
+        ],
+        "mainChars": [
+            "Daniel Radcliffe",
+            "Rupert Grint",
+            "Emma Watson"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748996786/Harry_Potter_and_the_Sorcerer_s_Stone_apqkye.jpg",
+            "alt": "Harry Potter Poster",
+            "publicId": "harrypotter1"
+        }
+    },
+    {
+        "name": "Avatar",
+        "description": "A paraplegic Marine dispatched to the moon Pandora becomes torn between following his orders and protecting the world he feels is his home.",
+        "year": 2009,
+        "rate": 4.5,
+        "duration": 162,
+        "creator": "682f4a5b41f81afa31ec044b",
+        "category": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "mainChars": [
+            "Sam Worthington",
+            "Zoe Saldana",
+            "Sigourney Weaver"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748996787/Avatar_j6qym1.jpg",
+            "alt": "Avatar Poster",
+            "publicId": "avatar2009"
+        }
+    },
+    {
+        "name": "The Avengers",
+        "description": "Earth's mightiest heroes must come together and learn to fight as a team to stop the mischievous Loki.",
+        "year": 2012,
+        "duration": 143,
+        "rate": 9.1,
+        "creator": "682f4a5b41f81afa31ec0437",
+        "category": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "mainChars": [
+            "Robert Downey Jr",
+            "Chris Evans",
+            "Scarlett Johansson"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748996786/The_Avengers_wavrom.jpg",
+            "alt": "The Avengers Poster",
+            "publicId": "avengers2012"
+        }
+    },
+    {
+        "name": "Man of Steel",
+        "description": "An alien child is evacuated from his dying world and sent to Earth to live among humans.",
+        "year": 2013,
+        "duration": 143,
+        "rate": 6.6,
+        "creator": "682f4a5b41f81afa31ec043b",
+        "category": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748996786/Man_of_Steel_jwbsfo.jpg",
+            "alt": "Man of Steel Poster",
+            "publicId": "manofsteel"
+        },
+        "mainChars": [
+            "Henry Cavill",
+            "Amy Adams",
+            "Michael Shannon"
+        ]
+    },
+    {
+        "name": "Wonder Woman",
+        "description": "Diana, an Amazonian warrior in training, leaves home to fight a war and discovers her full powers.",
+        "year": 2017,
+        "duration": 141,
+        "rate": 9.2,
+        "creator": "682f4a5b41f81afa31ec043b",
+        "category": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748996787/Wonder_Woman_pcugzm.jpg",
+            "alt": "Wonder Woman Poster",
+            "publicId": "wonderwoman"
+        },
+        "mainChars": [
+            "Gal Gadot",
+            "Chris Pine",
+            "Robin Wright"
+        ]
+    },
+    {
+        "name": "Aquaman",
+        "description": "Arthur Curry, the human-born heir to Atlantis, must step forward to reclaim his destiny.",
+        "year": 2018,
+        "rate": 8.3,
+        "duration": 143,
+        "creator": "682f4a5b41f81afa31ec043b",
+        "category": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748997154/Aquaman_fukpqo.jpg",
+            "alt": "Aquaman Poster",
+            "publicId": "aquaman"
+        },
+        "mainChars": [
+            "Jason Momoa",
+            "Amber Heard",
+            "Patrick Wilson"
+        ]
+    },
+    {
+        "name": "Men in Black",
+        "description": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth.",
+        "year": 1997,
+        "rate": 8.8,
+        "duration": 98,
+        "creator": "682f4a5c41f81afa31ec0463",
+        "category": [
+            "Action",
+            "Adventure",
+            "Comedy"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748997151/Men_in_Black_wfamgx.jpg",
+            "alt": "Men in Black Poster",
+            "publicId": "meninblack"
+        },
+        "mainChars": [
+            "Will Smith",
+            "Tommy Lee Jones",
+            "Linda Fiorentino"
+        ]
+    },
+    {
+        "name": "Spider-Man 2",
+        "description": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Octopus.",
+        "year": 2004,
+        "duration": 127,
+        "rate": 7.1,
+        "creator": "682f4a5c41f81afa31ec0463",
+        "category": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748997153/Spider-Man_2_jkrb16.jpg",
+            "alt": "Spider-Man 2 Poster",
+            "publicId": "spiderman2"
+        },
+        "mainChars": [
+            "Tobey Maguire",
+            "Kirsten Dunst",
+            "Alfred Molina"
+        ]
+    },
+    {
+        "name": "Ghostbusters",
+        "description": "Three former parapsychology professors set up shop as a unique ghost removal service.",
+        "year": 1984,
+        "rate": 6.2,
+        "duration": 105,
+        "creator": "682f4a5c41f81afa31ec0463",
+        "category": [
+            "Comedy",
+            "Fantasy",
+            "Sci-Fi"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748998042/Ghostbusters_hasur0.jpg",
+            "alt": "Ghostbusters Poster",
+            "publicId": "ghostbusters"
+        },
+        "mainChars": [
+            "Bill Murray",
+            "Dan Aykroyd",
+            "Harold Ramis"
+        ]
+    },
+    {
+        "name": "John Wick",
+        "description": "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took everything from him.",
+        "year": 2014,
+        "duration": 101,
+        "rate": 8.4,
+        "creator": "682f4a5b41f81afa31ec0457",
+        "category": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748998045/John_Wick_tczs4h.jpg",
+            "alt": "John Wick Poster",
+            "publicId": "johnwick"
+        },
+        "mainChars": [
+            "Keanu Reeves",
+            "Michael Nyqvist",
+            "Alfie Allen"
+        ]
+    },
+    {
+        "name": "The Hunger Games",
+        "description": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games.",
+        "year": 2012,
+        "duration": 142,
+        "rate": 7.5,
+        "creator": "682f4a5b41f81afa31ec0457",
+        "category": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748998048/The_Hunger_Games_atu4zm.jpg",
+            "alt": "The Hunger Games Poster",
+            "publicId": "hungergames"
+        },
+        "mainChars": [
+            "Jennifer Lawrence",
+            "Josh Hutcherson",
+            "Liam Hemsworth"
+        ]
+    },
+    {
+        "name": "Now You See Me",
+        "description": "An FBI agent and an Interpol detective track a team of illusionists who pull off bank heists during their performances.",
+        "year": 2013,
+        "duration": 115,
+        "rate": 8.5,
+        "creator": "682f4a5b41f81afa31ec0457",
+        "category": [
+            "Crime",
+            "Mystery",
+            "Thriller"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748998045/Now_You_See_Me_z1lhvx.jpg",
+            "alt": "Now You See Me Poster",
+            "publicId": "nowyouseeme"
+        },
+        "mainChars": [
+            "Jesse Eisenberg",
+            "Mark Ruffalo",
+            "Woody Harrelson"
+        ]
+    },
+    {
+        "name": "Mission: Impossible – Fallout",
+        "description": "Ethan Hunt and his IMF team must track down stolen plutonium while being monitored by a CIA agent.",
+        "rate": 8.2,
+        "year": 2018,
+        "duration": 147,
+        "creator": "682f4a5b41f81afa31ec0457",
+        "category": [
+            "Action",
+            "Adventure",
+            "Thriller"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748998050/Mission_Impossible_Fallout_wguff2.jpg",
+            "alt": "MI Fallout Poster",
+            "publicId": "mifallout"
+        },
+        "mainChars": [
+            "Tom Cruise",
+            "Henry Cavill",
+            "Rebecca Ferguson"
+        ]
+    },
+    {
+        "name": "Interstellar",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "year": 2014,
+        "duration": 169,
+        "rate": 7.5,
+        "creator": "682f4a5b41f81afa31ec0457",
+        "category": [
+            "Adventure",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "image": {
+            "src": "https://res.cloudinary.com/diyzgivpq/image/upload/v1748998044/Interstellar_mn6dlu.webp",
+            "alt": "Interstellar Poster",
+            "publicId": "interstellar"
+        },
+        "mainChars": [
+            "Matthew McConaughey",
+            "Anne Hathaway",
+            "Jessica Chastain"
+        ]
+    }
+]
