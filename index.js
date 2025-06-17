@@ -18,8 +18,8 @@ const helmet = require("helmet");
 const rateLimit = require('express-rate-limit');
 
 const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000, 
-  max: 100, 
+  windowMs: 8 * 60 * 1000,
+  max: 300,
   message: 'Too many requests from this IP, please try again later.'
 });
 
@@ -29,14 +29,14 @@ app.use(helmet());
 
 // connect to database
 mongoose.connect(process.env.DB)
-    .then(() => console.log("✅ Connected to DB"))
-    .catch(err => console.error("❌ DB Connection Error:", err));
+  .then(() => console.log("✅ Connected to DB"))
+  .catch(err => console.error("❌ DB Connection Error:", err));
 
 
 // logger
 const logger = (req, res, next) => {
-    console.log(req.method + req.url)
-    next()
+  console.log(req.method + req.url)
+  next()
 };
 
 
