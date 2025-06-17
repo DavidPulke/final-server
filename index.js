@@ -14,6 +14,18 @@ const users = require("./routes/users")
 const movies = require("./routes/movies");
 const errorHandler = require("./middlewares/errorHandler");
 const chat = require('./routes/chat');
+const helmet = require("helmet");
+const rateLimit = require('express-rate-limit');
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, 
+  max: 100, 
+  message: 'Too many requests from this IP, please try again later.'
+});
+
+app.use(limiter);
+app.use(helmet());
+
 
 // connect to database
 mongoose.connect(process.env.DB)
