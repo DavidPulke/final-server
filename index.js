@@ -5,10 +5,7 @@ require("dotenv").config();
 const port = process.env.PORT || 5000;
 const cors = require("cors");
 app.use(express.json());
-app.use(cors({
-  origin: "https://pulkemovies.netlify.app", // כתובת ה־frontend
-  credentials: true
-}));
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 const mongoose = require("mongoose");
 const login_register = require("./routes/register-login")
@@ -21,8 +18,8 @@ const helmet = require("helmet");
 const rateLimit = require('express-rate-limit');
 
 const limiter = rateLimit({
-  windowMs: 8 * 60 * 1000,
-  max: 300,
+  windowMs: 5 * 60 * 1000,
+  max: 400,
   message: 'Too many requests from this IP, please try again later.'
 });
 

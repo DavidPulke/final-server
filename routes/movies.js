@@ -61,9 +61,12 @@ router.get("/topMovies/mini", async (req, res, next) => {
 // get a creator list of movies
 router.get("/creator/:creatorId", async (req, res, next) => {
     try {
+
+        // get the tmdb from the db
+        const tmdb = await User.findOne({ name: "TMDB" })
         // specific for TMDB
         if (req.params.creatorId === "TMDB") {
-            const movies = await Movie.find({ creator: { $in: "68263a97d2b3583fa7dba47d" } });
+            const movies = await Movie.find({ creator: { $in: tmdb._id } });
             if (!movies) return res.status(400).send("Movie Not Found");
             return res.status(200).send(movies)
         }
