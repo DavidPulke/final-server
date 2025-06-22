@@ -8,15 +8,20 @@ app.use(express.json());
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 const mongoose = require("mongoose");
-const login_register = require("./routes/register-login")
-const imageUpload = require("./scripts/imageStorage")
-const users = require("./routes/users")
-const movies = require("./routes/movies");
 const errorHandler = require("./middlewares/errorHandler");
-const chat = require('./routes/chat');
 const helmet = require("helmet");
 const rateLimit = require('express-rate-limit');
 
+// routes
+const chat = require('./routes/chat');
+const users = require("./routes/users");
+const movies = require("./routes/movies");
+const messages = require("./routes/messages");
+const login_register = require("./routes/register-login");
+const imageUpload = require("./scripts/imageStorage");
+
+
+// limiter
 const limiter = rateLimit({
   windowMs: 5 * 60 * 1000,
   max: 400,
@@ -41,11 +46,12 @@ const logger = (req, res, next) => {
 
 
 
-app.use(logger)
-app.use("/api/users", login_register)
-app.use("/api/users", imageUpload)
-app.use("/api/users", users)
-app.use("/api/movies", movies)
+app.use(logger);
+app.use("/api/users", login_register);
+app.use("/api/users", imageUpload);
+app.use("/api/users", users);
+app.use("/api/movies", movies);
+app.use("/api/messages", messages);
 app.use('/api/chats', chat);
 
 // error handler

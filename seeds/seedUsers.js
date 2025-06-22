@@ -14,7 +14,7 @@ const seedUsers = async () => {
                 password: await bcrypt.hash("David@12345", salt),
                 isAdmin: true,
                 isVerified: true,
-                isCreator: false,
+                isCreator: true,
                 pulcoins: 1000,
                 image: {
                     src: "https://yt3.ggpht.com/yti/ANjgQV_dLZ3aj3Q0HhmHvL8njMp87zAsNbBOdqjb-r05hMKFV3c=s88-c-k-c0x00ffffff-no-rj",

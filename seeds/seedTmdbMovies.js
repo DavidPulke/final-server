@@ -21,9 +21,9 @@ const seedTmdbMovies = async (creatorMap) => {
             const movies = response.data.results;
 
             for (const movie of movies) {
-                const exists = await Movie.findOne({ externalId: movie.id });
+                const exists = await Movie.findOne({ name: movie.title });
                 if (!exists) {
-                    // בקשת שחקנים ליחידת הסרט הזה
+                    // Characters request
                     let mainChars = [];
                     try {
                         const creditsRes = await axios.get(`https://api.themoviedb.org/3/movie/${movie.id}/credits`, {
@@ -60,11 +60,13 @@ const seedTmdbMovies = async (creatorMap) => {
                         }
                     };
 
+                    if (moviesAdded === 120) return;
                     await Movie.create(newMovie);
                     console.log(`✅ Added: ${movie.title}`);
                     moviesAdded++;
                 } else {
                     console.log(`ℹ️ Already exists: ${movie.title}`);
+                    moviesAdded++;
                 }
             }
         }

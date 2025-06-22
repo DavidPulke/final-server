@@ -2,18 +2,18 @@ const mongoose = require("mongoose");
 const { Schema, model } = mongoose;
 
 const messageSchema = new Schema({
-    sender: {
+    from: {
         type: Schema.Types.ObjectId,
         ref: "users",
         required: true
     },
-    content: {
-        type: String,
+    to: {
+        type: Schema.Types.ObjectId,
+        ref: "users",
         required: true
     },
-    chatId: {
-        type: Schema.Types.ObjectId,
-        ref: "chats",
+    text: {
+        type: String,
         required: true
     },
     createdAt: {
