@@ -38,7 +38,7 @@ router.get("/", auth, async (req, res, next) => {
         })
             .populate("from", "name email")
             .populate("to", "name email")
-            .sort({ createdAt: -1 });
+            .sort({ createdAt: 1 });
 
         res.send(messages);
     } catch (error) {
@@ -58,7 +58,7 @@ router.get("/users", auth, async (req, res, next) => {
         const userIds = await Message.distinct("from", { to: req.payload._id });
         const users = await User.find({ _id: { $in: userIds } }, "name image");
 
-        res.send(users);
+        res.send(users.reverse());
     } catch (error) {
         next(error);
     }
