@@ -14,6 +14,10 @@ const moviesSchema = new Schema({
         type: [String],
         required: true
     },
+    trailer: {
+        type: String,
+        default: null
+    },
     description: {
         type: String,
         minlength: 5,

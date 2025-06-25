@@ -68,7 +68,7 @@ router.get("/creator/:creatorId", async (req, res, next) => {
         if (req.params.creatorId === "TMDB") {
             const movies = await Movie.find({ creator: { $in: tmdb._id } });
             if (!movies) return res.status(400).send("Movie Not Found");
-            return res.status(200).send(movies)
+            return res.status(200).send(movies.reverse())
         }
 
 
