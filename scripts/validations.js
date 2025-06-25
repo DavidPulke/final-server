@@ -33,7 +33,7 @@ const movieSchema = Joi.object({
     // movie description
     description: Joi.string().required().min(5).max(500),
     // movie trailer
-    trailer: Joi.string().required().min(5).max(220),
+    trailer: Joi.string().min(5).max(220).optional(),
     // the year the movie as been released
     year: Joi.string().required().min(4).max(4),
     // the duration of the movie
