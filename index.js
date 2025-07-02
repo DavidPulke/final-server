@@ -21,6 +21,12 @@ const login_register = require("./routes/register-login");
 const imageUpload = require("./scripts/imageStorage");
 
 
+// keep the site awake
+app.get("/api/ping", (req, res) => {
+  res.send("pong");
+});
+
+
 // limiter
 const limiter = rateLimit({
   windowMs: 5 * 60 * 1000,
